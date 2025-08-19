@@ -1,59 +1,85 @@
-## Hi there 👋# Hi, I'm Ankit Raj 👋  
+# Generate the README.md file with the customized GitHub profile content
 
-🎓 Final-year **Computer Science & Engineering** student at **BIT Mesra**  
-🔐 Aspiring **Cybersecurity Analyst / SOC Analyst**  
-🌐 Passionate about **Cybersecurity, Incident Response, and Cloud Security**  
+readme_content = """# Hi 👋, I'm  
+# **Ankit Raj**  
 
----
-
-## 🧑‍💻 About Me  
-- Interned at **Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs** – worked on cyber fraud analysis & defense strategies.  
-- Experienced with **incident response, vulnerability assessment, SIEM monitoring, and cloud security**.  
-- Interested in applying my skills to solve **real-world security challenges**.  
+### A passionate **Cybersecurity Analyst / SOC Analyst** from India  
 
 ---
 
-## 🔨 Technical Skills  
-- **Operating Systems:** Windows, Linux (Ubuntu, Kali)  
-- **Networking:** TCP/IP, Firewalls, VPNs, IDS/IPS, Wireshark, Nmap  
-- **Security Tools:** Metasploit, Nessus, Burp Suite, Splunk, SIEM  
-- **Programming:** Python, Bash, PowerShell  
-- **Core Areas:** Vulnerability Assessment, Penetration Testing, Incident Response, Risk Management  
+## 🔭 I’m currently working on  
+- **PAN and Aadhaar Card Fraud Detection System** – [Details at Tata Steel Internship]  
+
+## 👯 I’m looking to collaborate on  
+- **Cybersecurity Projects** – Incident Response, Threat Hunting, and SOC Automation  
+
+## 🤝 I’m looking for help with  
+- **Advanced Threat Detection in Cloud Environments**  
+
+## 🌱 I’m currently learning  
+- **Google Cloud Security**, **SIEM Monitoring**, **SOC Operations**, **Incident Response Automation**  
+
+## 💬 Ask me about  
+- **Cybersecurity, SOC, SIEM, Incident Response, Penetration Testing**  
+
+## 📫 How to reach me  
+- **Email:** [decankitsingh2003@gmail.com](mailto:decankitsingh2003@gmail.com)  
+
+## 👨‍💻 All of my projects are available at  
+- [My GitHub Repositories](https://github.com/kakarot2003)  
+
+## 📝 I regularly write articles on  
+- *(You can add Medium/Hashnode later if you start writing blogs)*  
+
+## 📄 Know about my experiences  
+- [LinkedIn](https://www.linkedin.com/in/ankit-raj-a202a2231)  
+
+## ⚡ Fun fact  
+- *I think I am funny 😄*  
 
 ---
 
-## 📂 Projects  
-- 🔎 **Network Vulnerability Assessment** – Scanned with Nessus & Nmap, identified vulnerabilities, recommended fixes.  
-- 🔑 **Password Security Analysis** – Evaluated password strength using John the Ripper & Hashcat.  
-- 🛡 **Incident Response Simulation** – Investigated logs during a simulated attack, implemented containment & remediation.  
+## 🛠️ Skills  
+
+### **Programming Languages**  
+`Python` · `Bash` · `PowerShell` · `C` · `C++` · `Java`  
+
+### **Cybersecurity & Networking**  
+`Nmap` · `Wireshark` · `Metasploit` · `Nessus` · `Burp Suite` · `Splunk` · `SIEM`  
+`TCP/IP` · `VPNs` · `Firewalls` · `IDS/IPS`  
+
+### **Operating Systems**  
+`Windows` · `Linux (Ubuntu, Kali)`  
+
+### **Frameworks & Tools**  
+`Google Cloud Security` · `Incident Response` · `Vulnerability Assessment` · `Penetration Testing`  
 
 ---
 
-## 📜 Certifications  
-- Tata Group Cybersecurity Analyst (Forage Virtual Experience)  
-- Google Cloud Cybersecurity Certificate  
-- Ethical Hacking Workshop (Nikistian Media Pvt Ltd)  
+## 🌐 Socials  
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kakarot2003)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankit-raj-a202a2231)  
 
 ---
 
 ## 📊 GitHub Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kakarot2003&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kakarot2003&layout=compact&theme=tokyonight" alt="Top Languages" height="160"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kakarot2003&theme=tokyonight" alt="GitHub Streak" />
-</p>
+![Ankit’s GitHub stats](https://github-readme-stats.vercel.app/api?username=kakarot2003&show_icons=true&theme=radical)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kakarot2003&layout=compact&theme=radical)  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kakarot2003&theme=radical)  
 
 ---
 
-## 📫 Connect with Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankit-raj-a202a2231)  
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/kakarot2003)  
-📧 **Email:** decankitsingh2003@gmail.com  
+## 🏆 GitHub Trophies  
+![trophy](https://github-profile-trophy.vercel.app/?username=kakarot2003&theme=onedark)  
 
 ---
 
-✨ Always curious about cybersecurity | Open to learning & collaborations ✨
+✨ Profile crafted with ❤️ using AI ✨  
+"""
+
+# Save to README.md
+file_path = "/mnt/data/README.md"
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(readme_content)
+
+file_path
