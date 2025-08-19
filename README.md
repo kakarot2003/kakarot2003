@@ -1,6 +1,6 @@
-# Generate the README.md file with the customized GitHub profile content
+# Hi There!!!!
 
-readme_content = """# Hi 👋, I'm  
+
 # **Ankit Raj**  
 
 ### A passionate **Cybersecurity Analyst / SOC Analyst** from India  
@@ -27,9 +27,6 @@ readme_content = """# Hi 👋, I'm
 
 ## 👨‍💻 All of my projects are available at  
 - [My GitHub Repositories](https://github.com/kakarot2003)  
-
-## 📝 I regularly write articles on  
-- *(You can add Medium/Hashnode later if you start writing blogs)*  
 
 ## 📄 Know about my experiences  
 - [LinkedIn](https://www.linkedin.com/in/ankit-raj-a202a2231)  
@@ -74,12 +71,3 @@ readme_content = """# Hi 👋, I'm
 
 ---
 
-✨ Profile crafted with ❤️ using AI ✨  
-"""
-
-# Save to README.md
-file_path = "/mnt/data/README.md"
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-file_path
