@@ -1,6 +1,4 @@
-# Enhanced version of the README with visitor badges, dynamic GitHub Actions placeholders, and more attractive layout
-
-readme_content = """<h1 align="center">Hi 👋, I'm Ankit Raj</h1>
+<h1 align="center">Hi 👋, I'm Ankit Raj</h1>
 <h3 align="center">🚀 A passionate Cybersecurity Analyst / SOC Analyst from India 🚀</h3>
 
 <p align="center">
@@ -33,8 +31,6 @@ readme_content = """<h1 align="center">Hi 👋, I'm Ankit Raj</h1>
 ### 👨‍💻 All of my projects are available at  
 - [My GitHub Repositories](https://github.com/kakarot2003)  
 
-### 📝 I regularly write articles on  
-- *(Coming soon – Medium / Hashnode)*  
 
 ### 📄 Know about my experiences  
 - [LinkedIn](https://www.linkedin.com/in/ankit-raj-a202a2231)  
@@ -92,19 +88,3 @@ readme_content = """<h1 align="center">Hi 👋, I'm Ankit Raj</h1>
 
 ---
 
-## 📰 Latest Blog Posts  
-<!-- BLOG-POST-LIST:START -->
-*(Dynamic blogs from Medium/Dev.to/Hashnode will appear here using GitHub Actions)*
-<!-- BLOG-POST-LIST:END -->
-
----
-
-✨ Profile crafted with ❤️ using AI ✨  
-"""
-
-# Save enhanced README.md
-file_path = "/mnt/data/Enhanced_README.md"
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-file_path
